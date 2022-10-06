@@ -1,7 +1,7 @@
 {
-  "name": "@Malith-ra/react-component-library",
+  "name": "ooredoo-lk",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/YOUR_REPOSITORY_NAME"
+    "registry": "https://npm.pkg.github.com/react-component-library"
   },
   "version": "0.1.0",
   "description": "A simple template for a custom React component library",
@@ -11,7 +11,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "author": "YOUR_NAME",
+  "author": "Malith Ranasinghe",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -48,10 +48,22 @@
     "style-loader": "^3.3.1",
     "typescript": "^4.7.4"
   },
-  "main": "dist/cjs/index.js",
+  "main": "src/index.js",
   "module": "dist/esm/index.js",
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malith-ra/react-component-library.git"
+  },
+  "keywords": [
+    "design",
+    "system"
+  ],
+  "bugs": {
+    "url": "https://github.com/Malith-ra/react-component-library/issues"
+  },
+  "homepage": "https://github.com/Malith-ra/react-component-library#readme"
 }
